@@ -1,15 +1,46 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>cadastro</ion-title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
-    <ion-item>
-      <ion-input type="email" fill="solid" label="Email" labelPlacement="floating" helperText="Enter a valid email"
-        errorText="Invalid email" ngModel email>
-      </ion-input>
-    </ion-item>
   </ion-header>
+  <div>
+    <h1 class="t1">best</h1>
+    <h1 class="t2">friend</h1>
+  </div>
+  <div style="margin-top: 30px;">
+    <ion-item style="--border-style: none;" >
+      <ion-input style="display: flex;" label-placement="floating" label="Desejo ser chamado(a) de*" class="input1" type="name"
+        fill="outline" placeholder="Seu nome"><ion-icon class="icone"
+          name="person-outline"></ion-icon></ion-input>
+    </ion-item>
+    <ion-item style="--border-style: none;" >
+      <ion-input style="display: flex;" label-placement="floating" label="Email" class="input1" type="email"
+        fill="outline" placeholder="email.com.br"><ion-icon class="icone"
+          name="mail-outline"></ion-icon></ion-input>
+    </ion-item>
+    <ion-item style="--border-style: none;">
+      <ion-input class="input2" label="Senha" type="password" label-placement="floating" fill="outline"
+      placeholder="00000000"><ion-icon name="lock-open-outline" class="icone"></ion-icon></ion-input>
+    </ion-item>
+    <ion-item style="--border-style: none;">
+      <ion-input class="input2" label="Confirme sua senha*" type="password" label-placement="floating" fill="outline"
+      placeholder="00000000"><ion-icon name="lock-closed-outline" class="icone"></ion-icon></ion-input>
+    </ion-item>
+  </div>
+  <div>
+    <ion-button class="b1" expand="block" [routerLink]="['/login']">Registrar</ion-button>
+    <p class="p1">Ja possuo cadastro,<b><a [routerLink]="['/login']">logar</a></b></p>
+  </div>
+  <div >
+    <p class="p2"> Ou logue com</p>
+  </div>
+    <div id="linha-horizontal"></div><div id="linha-horizontal1"></div>
+  <br><br><br>
+  <ion-button class="b2" shape="round"> <img width="30px" src="assets/icon/google.png" alt="">Google</ion-button>
 </ion-content>

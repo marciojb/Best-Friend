@@ -1,0 +1,113 @@
+.t1{
+    text-align: center;  
+    font-family: Comfortaa;
+    font-size: 60px ;
+    color: rgb(255, 255, 255);
+  }
+  .t2{
+    text-align: center;  
+    font-family: Comfortaa;
+    font-size: 60px ;
+    color: rgb(255, 255, 255);
+    margin-top: -30px;
+  }
+  .input1{
+      border: 1px solid #1F90E1;
+      border-radius: 10px;
+      background-color: white;
+      font-family: inter;
+      display: flex;
+      margin-top: 15px;
+  }
+  .input2{
+    border: 1px solid #1F90E1;
+    border-radius: 10px;
+    background-color: white;
+    font-family: inter;
+    margin-top: 15px;
+    display: flex;
+  }
+  
+  .icone{
+    margin-top: 10px; 
+    font-size:35px; 
+    margin-left: 5px;
+    margin-right: 10px;
+    color: #00000077;
+    
+  }
+  
+  p{
+    font-family: inter;
+    color: white;
+    font-size: 16px ;
+  }
+  .p1{
+    font-family: inter;
+    color: white;
+    font-size: 16px ;
+    text-align: center;
+  }
+  .p2{
+    font-family: inter;
+    font-size: 16px ;
+    text-align: center;
+  }
+  .p3{
+    color: white;
+    font-family: inter;
+    margin-top: -30px;
+    margin-left: 15%;
+  }
+  a{
+    color: white;
+    font-weight: 700;
+    font-size: 18px
+    
+    
+  }
+  #toggle{
+    margin-top: 15px;
+    margin-left: 20px;
+    display: block;
+  }
+  
+  .b1{
+    color: #ffffff;
+    --background: linear-gradient(90deg, #32A97E, #50727B);
+    font-family: inter;
+    width: 85%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .b2 {
+    color: #000000;
+    --background: #ffffff; /* Ajustando a propriedade de fundo */
+    font-family: inter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #linha-horizontal {
+    display: flex ;
+    width: 20%;
+    border: 1px solid #ffffff;
+    margin-top: -27px;
+    margin-left: 8%;
+  }
+  #linha-horizontal1 {
+    display: flex ;
+    width: 20%;
+    border: 1px solid #ffffff;
+    margin-top: -2px;
+    float: right;
+    margin-right: 8%;
+  }
+  

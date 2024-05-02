@@ -1,17 +1,22 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
+  <ion-header >
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
   </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
-</ion-content>
+      <ion-content>
+        <h1>BF</h1>
+        <div class="mensagem enviada">
+          <div class="texto">Olá! Como você está?</div>
+        </div>
+        <div class="mensagem recebida">
+          <div class="texto">Oi! Estou bem, obrigado por perguntar.</div>
+        </div>
+        <div class="mensagem enviada">
+          <div class="texto">Que bom saber!</div>
+        </div>
+        <ion-footer >
+            <ion-input class="enviar" placeholder="Hoje estou me sentindo melhor...">
+              <ion-icon slot="end" name="arrow-forward"></ion-icon>
+            </ion-input>
+        </ion-footer>
+      </ion-content>

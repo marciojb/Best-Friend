@@ -24,10 +24,11 @@
     <p class="p3">Lembre-me</p>
   </div>
 
-  <ion-button class="b1" expand="block">Login</ion-button>
-  <p>Ainda não tem uma conta?<b><a [routerLink]="['/cadastro']">cadastre-se</a></b></p>
+  <ion-button class="b1" expand="block" [routerLink]="['/tabs/tab1']" >Login</ion-button>
+  <p class="p1">Ainda não tem uma conta?<b><a [routerLink]="['/cadastro']">cadastre-se</a></b></p>
   <div >
-  <p class="p2"> Ou logue com</p></div>
+  <p class="p2"> Ou logue com</p>
+</div>
   <div id="linha-horizontal"></div><div id="linha-horizontal1"></div>
   <br><br><br>
   <ion-button class="b2" shape="round"> <img width="30px" src="assets/icon/google.png" alt="">Google</ion-button>

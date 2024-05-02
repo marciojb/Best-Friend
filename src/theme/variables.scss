@@ -36,11 +36,7 @@
   --ion-color-success-tint: #42d77d;
 
   /** warning **/
-<<<<<<< HEAD
   --ion-color-warning: #8d825d;
-=======
-  --ion-color-warning: #ffc409;
->>>>>>> a3e969bddd8c0895b6f6954841578ca02a8f6f91
   --ion-color-warning-rgb: 255, 196, 9;
   --ion-color-warning-contrast: #000000;
   --ion-color-warning-contrast-rgb: 0, 0, 0;
@@ -157,7 +153,6 @@
    */
 
   .ios body {
-<<<<<<< HEAD
     --ion-background-color: linear-gradient(to bottom, #324B52, #435C4A);
     --ion-background-color-rgb: 0,0,0;
 
@@ -185,8 +180,10 @@
     --ion-color-step-950: #f2f2f2;
 
     --ion-item-background: none;
-
+    --ion-tab-bar-background: #8E8E8E;
     --ion-card-background: #1c1c1d;
+    --ion-tab-bar-color: #ffffff;
+    --ion-tab-bar-color-selected:#00ff2a91;
   }
 
   .ios ion-modal {
@@ -232,11 +229,13 @@
 
     --ion-item-background: none;
 
-    --ion-toolbar-background: #1f1f1f;
+    --ion-toolbar-background: #ffffff;
+    --ion-tab-bar-color: #ffffff;
 
-    --ion-tab-bar-background: #1f1f1f;
+    --ion-tab-bar-background: #8E8E8E;
 
     --ion-card-background: #1e1e1e;
+    --ion-tab-bar-color-selected:#00ff2a91;
   }
 }
 
@@ -309,6 +308,8 @@
     --ion-color-light-contrast-rgb: 255,255,255;
     --ion-color-light-shade: #1e2023;
     --ion-color-light-tint: #383a3e;
+
+    --ion-tab-bar-color-selected:#134400;
   }
 
   /*
@@ -321,12 +322,6 @@
     --ion-background-color-rgb: 0,0,0;
 
     --ion-text-color: #000000;
-=======
-    --ion-background-color: #000000;
-    --ion-background-color-rgb: 0,0,0;
-
-    --ion-text-color: #ffffff;
->>>>>>> a3e969bddd8c0895b6f6954841578ca02a8f6f91
     --ion-text-color-rgb: 255,255,255;
 
     --ion-color-step-50: #0d0d0d;
@@ -349,13 +344,12 @@
     --ion-color-step-900: #e6e6e6;
     --ion-color-step-950: #f2f2f2;
 
-<<<<<<< HEAD
     --ion-item-background: none;
-=======
-    --ion-item-background: #000000;
->>>>>>> a3e969bddd8c0895b6f6954841578ca02a8f6f91
-
+    --ion-tab-bar-background: #ffffff;
     --ion-card-background: #1c1c1d;
+    --ion-tab-bar-color: #000000;
+    --ion-tab-bar-color-selected:#175200;
+    
   }
 
   .ios ion-modal {
@@ -371,11 +365,7 @@
    */
 
   .md body {
-<<<<<<< HEAD
     --ion-background-color: linear-gradient(to bottom, #50727B, #78A083);
-=======
-    --ion-background-color: #121212;
->>>>>>> a3e969bddd8c0895b6f6954841578ca02a8f6f91
     --ion-background-color-rgb: 18,18,18;
 
     --ion-text-color: #ffffff;
@@ -403,23 +393,18 @@
     --ion-color-step-900: #e7e7e7;
     --ion-color-step-950: #f3f3f3;
 
-<<<<<<< HEAD
     --ion-item-background: none;
-=======
-    --ion-item-background: #1e1e1e;
->>>>>>> a3e969bddd8c0895b6f6954841578ca02a8f6f91
 
-    --ion-toolbar-background: #1f1f1f;
+    --ion-toolbar-background: #ffffff;
 
-    --ion-tab-bar-background: #1f1f1f;
+    --ion-tab-bar-background: #ffffff;
+
+    --ion-tab-bar-color: #000000;
 
     --ion-card-background: #1e1e1e;
+    --ion-tab-bar-color-selected:#48ff00;
   }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> a3e969bddd8c0895b6f6954841578ca02a8f6f91
 html {
   /* 
    * For more information on dynamic font scaling, visit the documentation:

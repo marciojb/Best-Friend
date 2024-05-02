@@ -3,7 +3,7 @@
   font-family: Comfortaa;
   font-size: 60px ;
   color: rgb(255, 255, 255);
-  margin-top: 100px;
+  margin-top: 30px;
 }
 .t2{
   text-align: center;  
@@ -41,18 +41,23 @@ p{
   font-family: inter;
   color: white;
   font-size: 16px ;
-  margin-left: 15%;
+}
+.p1{
+  font-family: inter;
+  color: white;
+  font-size: 16px ;
+  text-align: center;
 }
 .p2{
   font-family: inter;
-  margin-left: 37%;
   font-size: 16px ;
+  text-align: center;
 }
 .p3{
   color: white;
   font-family: inter;
   margin-top: -30px;
-
+  margin-left: 15%;
 }
 a{
   color: white;
@@ -69,34 +74,39 @@ a{
 
 .b1{
   color: #ffffff;
-  --background: linear-gradient(90deg, #35374B, #50727B);
+  --background: linear-gradient(90deg, #32A97E, #50727B);
   font-family: inter;
   width: 85%;
-  margin-left: 30px;
-  margin-top: 15px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
 }
-.b2{
+.b2 {
   color: #000000;
-  --background: #ffffff;
+  --background: #ffffff; /* Ajustando a propriedade de fundo */
   font-family: inter;
-  margin-left: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 #linha-horizontal {
   display: flex ;
-  width: 130px;
+  width: 20%;
   border: 1px solid #ffffff;
   margin-top: -27px;
-  text-align: right;
-  margin-left: 10px;
+  margin-left: 8%;
 }
 #linha-horizontal1 {
   display: flex ;
-  width: 130px;
+  width: 20%;
   border: 1px solid #ffffff;
-  margin-left: 65%;
   margin-top: -2px;
-}
-#linha-vertical {
-  height: 170px;
-  border-right: 1px solid red;
+  float: right;
+  margin-right: 8%;
 }
