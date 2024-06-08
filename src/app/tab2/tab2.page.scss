@@ -36,8 +36,12 @@ ion-icon{
 }
 ion-footer{
     border-radius: 15px;
+    box-shadow: none
 }
-
+ion-button{
+  --background: none;
+  --box-shadow: none
+}
   @media (prefers-color-scheme: light){
     .enviada {
         float: right;

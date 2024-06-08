@@ -18,6 +18,8 @@
       font-family: inter;
       display: flex;
       margin-top: 15px;
+      --border-color: #59595900;
+      color: #000000;
   }
   .input2{
     border: 1px solid #1F90E1;
@@ -26,6 +28,9 @@
     font-family: inter;
     margin-top: 15px;
     display: flex;
+    --border-color: #59595900;
+    color: #000000;
+    
   }
   
   .icone{
@@ -33,7 +38,7 @@
     font-size:35px; 
     margin-left: 5px;
     margin-right: 10px;
-    color: #00000077;
+    color: #000000bd;
     
   }
   
@@ -111,3 +116,6 @@
     margin-right: 8%;
   }
   
+  .input-fill-outline.has-focus.sc-ion-input-md-h {
+    --border-color: #59595900;
+  }

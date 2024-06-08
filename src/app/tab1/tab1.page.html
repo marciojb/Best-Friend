@@ -7,9 +7,16 @@
     <h1 class="t1">Seu</h1>
     <h1 class="t2">Diário</h1>
   </div>
-
-  <div>
-      <ion-textarea placeholder="Como você esta..." > Domingo/15/09/2024</ion-textarea>
+  <div class="div-butao">
+  <ion-button [routerLink]="['/diario-historico']"><ion-icon name="calendar-outline"></ion-icon> </ion-button>
+  </div>
+  <div style="display: flex; margin-left: 70px; ">
+  <ion-icon style="color: #D7F5FF;" name="chevron-back-outline"></ion-icon>
+<ion-label  style="margin-top: 10px; color: #D7F5FF" >Domingo/15/09/2024</ion-label>
+<ion-icon style="color: #D7F5FF" name="chevron-forward-outline"></ion-icon>  
+</div>
+<div style="margin-top: -35px;"> 
+      <ion-textarea placeholder="Como você esta..." > </ion-textarea>
   </div>
 
   

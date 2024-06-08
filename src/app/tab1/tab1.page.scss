@@ -9,8 +9,10 @@ h1{
 };
 @media (prefers-color-scheme: light){
 ion-textarea{
-    background-color: #ffffff;
+    background-color: #d7f5ffc2;
     border: 1px solid #1F90E1;
+    text-align: center;
+    border-radius: 10px;
     font-family: inter;
     width: 350px;
     height: 450px;
@@ -24,7 +26,7 @@ ion-textarea{
 @media (prefers-color-scheme: dark){
     ion-textarea{
         color: #ffffff;
-        background-color: #8E8E8E;
+        background-color: #cfcfcf8a;
         border: 1px solid #1F90E1;
         font-family: inter;
         width: 350px;
@@ -36,3 +38,14 @@ ion-textarea{
       margin-top: 70%;
     }
     };
+
+  ion-icon{
+    font-size: 40px;
+  }
+ion-button{
+  --background: #ffffff00;
+  --background-activated: rgba(255, 255, 255, 0);
+  margin-left: 300px;
+    margin-top: -180px;
+    --box-shadow: #ffffff00;
+  }
